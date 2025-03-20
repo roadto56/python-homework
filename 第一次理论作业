@@ -1,0 +1,21 @@
+# 第一题
+print ("Hello World!")
+# 第二题
+a = input("你的姓名是：")
+print ("Hello",a)
+# 第三题第一问
+for i in range (10):
+    print(i,end=" ")
+# 第三题第二问
+for i in range (10):
+    print(i,end=",")
+# 第四题第一问
+for i in "Hello World!":
+    print (i)
+#第四题第二问
+for i in "man":
+    print (i)
+# 第五题
+print (" ". join(["A","B","C","D","E"]))
+print (",". join(["A","B","C","D","E"]))
+print ("-". join(["A","B","C","D","E"]))
